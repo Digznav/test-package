@@ -13,6 +13,7 @@
   "license": "ISC",
   "author": "",
   "exports": {
+    ".": "./dist/index.js",
     "./*": "./dist/*.js",
     "./*.js": "./dist/*.js",
     "./package.json": null
