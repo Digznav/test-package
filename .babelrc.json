@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [
+      "@justia/babel-preset",
+      {
+        "transformRuntime": false,
+        "modules": false,
+        "typescript": true
+      }
+    ]
+  ],
+  "ignore": [
+    "./**/*.d.ts",
+    "./node",
+    "./node_modules",
+    "./preview",
+    "./dist"
+  ],
+  "comments": false
+}

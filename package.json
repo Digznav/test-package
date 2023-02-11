@@ -1,0 +1,42 @@
+{
+  "name": "@digznav/test-package",
+  "version": "1.0.0",
+  "description": "This is for testing purposes",
+  "homepage": "https://github.com/Digznav/test-package#readme",
+  "bugs": {
+    "url": "https://github.com/Digznav/test-package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digznav/test-package.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "exports": {
+    "./*": "./dist/*.js",
+    "./*.js": "./dist/*.js",
+    "./package.json": null
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json && NODE_ENV=production babel ./ --out-dir ./dist --extensions '.ts'",
+    "clean": "rimraf dist/",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "browserslist": [
+    "extends @justia/browserslist-config"
+  ],
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@justia/babel-preset": "^3.0.2",
+    "@justia/browserslist-config": "^2.0.2",
+    "rimraf": "^4.1.2"
+  }
+}

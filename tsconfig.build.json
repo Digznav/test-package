@@ -1,0 +1,35 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "declarationMap": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "sourceMap": false,
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "ES2015",
+    "lib": [
+      "ES2015",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "test/**/*.ts",
+    "node/**/*.ts",
+    "preview/"
+  ],
+  "include": [
+    "*.ts",
+    "**/*.ts"
+  ]
+}
