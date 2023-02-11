@@ -5,7 +5,9 @@
     "composite": false,
     "rootDir": "."
   },
-  "exclude": [],
+  "exclude": [
+    "dist"
+  ],
   "include": [
     "*.ts",
     "**/*.ts",

@@ -1,5 +1,4 @@
 {
-  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
@@ -21,11 +20,13 @@
     "lib": [
       "ES2015",
       "dom"
-    ]
+    ],
+    "outDir": "dist/"
   },
   "exclude": [
     "test/**/*.ts",
     "node/**/*.ts",
+    "dist/",
     "preview/"
   ],
   "include": [
