@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "prebuild": "rimraf dist/",
-    "build": "tsc -b tsconfig.build.json && NODE_ENV=production babel ./ --out-dir ./dist --extensions '.ts'",
+    "build": "tsc -b tsconfig.build.json",
     "test": "echo 'Error: no test specified' && exit 1"
   },
   "browserslist": [
