@@ -9,8 +9,6 @@
     "dist"
   ],
   "include": [
-    "*.ts",
-    "**/*.ts",
-    "test"
+    "source/**/*.ts"
   ]
 }
