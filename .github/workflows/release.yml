@@ -1,3 +1,10 @@
+permissions:
+  # Needed to create PR statuses/checks
+  checks: write
+  statuses: write
+  # Needed to push git tags, release
+  contents: write
+
 name: Release
 
 on:
@@ -5,6 +12,8 @@ on:
     branches:
       - develop
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 jobs:
   release:
     runs-on: ubuntu-latest
