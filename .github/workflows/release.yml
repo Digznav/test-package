@@ -1,3 +1,10 @@
+permissions:
+  # Needed to create PR statuses/checks
+  checks: write
+  statuses: write
+  # Needed to push git tags, release
+  contents: write
+
 name: Release
 
 on:
