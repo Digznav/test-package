@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/Digznav/test-package/compare/v1.0.0...v2.0.0) (2024-08-07)
+
+
+### Bug Fixes
+
+* change type ([65ce962](https://github.com/Digznav/test-package/commit/65ce9628edd5c79ab6aa99d10863254006ec893c))
+
+
+### BREAKING CHANGES
+
+* breaking reason.
+
 # 1.0.0 (2024-08-07)
 
 
